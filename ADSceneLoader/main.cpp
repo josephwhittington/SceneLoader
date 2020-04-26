@@ -19,5 +19,8 @@ int main(int argc, char** argv)
 	// Process scene
 	loader.ProcessScene();
 
+	// Write to file
+	loader.ExportADScene();
+
 	return EXIT_SUCCESS;
 }
